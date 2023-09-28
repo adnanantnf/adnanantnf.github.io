@@ -347,10 +347,16 @@ span, a, a:hover {
 }
 
 .logo {
-  padding: 15px 0;
-  width: 100px;
+  float: left;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   color: #fff;
-  font-size: 20px;
+}
+.logo:hover, .logo:focus {
+  color: #fff;
 }
 
 /* ----------------------------------------------------------------
