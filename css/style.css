@@ -535,7 +535,11 @@ span, a, a:hover {
   background-size: cover;
   z-index: 1;
 }
-
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
 .skills .skill-item {
   margin-bottom: 20px;
 }
@@ -592,7 +596,38 @@ span, a, a:hover {
   top: -12px;
   right: 15px;
 }
+.skill {
+  margin-bottom: 20px;
+}
 
+.skill h2 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.skill-level {
+  background-color: #f0f0f0;
+  height: 20px;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #f8f5f5; /* Warna teks */
+}
+
+.skill-level.beginner {
+  background-color: #110d01; /* Warna latar belakang untuk tingkat "Beginner" */
+  color: #fdf9f9; /* Warna teks untuk tingkat "Beginner" */
+  width: 100px; /* Atur lebar sesuai kebutuhan */
+}
+
+.hero .buton {
+  margin-top: 20px;
+}
 /* ----------------------------------------------------------------
      [ End Hero ]
 -----------------------------------------------------------------*/
